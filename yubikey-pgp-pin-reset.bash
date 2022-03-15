@@ -2,6 +2,15 @@
 #
 # Yubikey OpenPGP/GnuPG Card - PIN Reset script
 #
+
+# Currently modifying `shflags` library to include
+# new flag types (i.e. enum type flags)
+# need to decide best way to include this library
+# in this script without having my development process
+# break this script. Was trying to avoid duplicate
+# copies of the same files but may not be a way around
+# that for now. Will ponder and decide soon. 
+
 # Source shflags
 source ./lib/shflags/shflags
 
